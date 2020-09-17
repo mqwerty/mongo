@@ -1,3 +1,3 @@
-FROM mongo:4.2
+FROM mongo:latest
 ARG DEBIAN_FRONTEND=noninteractive
 COPY ./conf/.bashrc /root/.bashrc
